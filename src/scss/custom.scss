@@ -1,0 +1,45 @@
+//Navbar
+.navbar-brand img {
+  width: 250px;
+  height: auto;
+}
+
+@media (max-width: 500px) {
+  .navbar-brand img {
+    width: 180px;
+    height: auto;
+  }
+}
+
+//Drinks
+.drink {
+  width: 20rem;
+  color: #222;
+  transition: 0.25s ease;
+}
+
+.drink:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35) !important;
+  transform: scale(1.015);
+}
+
+.card-glass {
+  letter-spacing: 2px;
+}
+
+.card-info {
+  color: #666;
+}
+
+//SingleDrink
+.single-drink-img {
+  width: 100%;
+  height: auto;
+}
+
+.drink-info {
+  color: #222;
+  font-weight: 600;
+}
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
